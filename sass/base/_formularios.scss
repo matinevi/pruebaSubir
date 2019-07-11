@@ -1,0 +1,92 @@
+// *****************************
+// +++++++ $FORMULARIOS ++++++
+// *****************************
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+section {
+    background-color: #F5F5F5;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/svg/fantasma.svg);
+    background-position: top;
+    background-size: center;
+    background-repeat: no-repeat;
+
+    & h1 {
+        color: #A2A2A2;
+        font-size: 1.5rem;
+        margin: 10px 10px;
+        font-weight: 490;
+    }
+
+
+    & form {
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        color: #D1D1D1;
+
+
+
+        & ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            box-sizing: border-box;
+          
+
+
+
+            & li {
+                & input, textarea, button {
+                    padding: 10px 7px;
+                    height: 50px;
+                    width: 340px;
+                    border: none;
+                    font-size: 1.5rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: #d2d2d2;
+                    
+
+                    &::placeholder {
+                        color: #D1D1D1;
+                        
+                    }
+
+
+                }
+
+                & a button {
+                    width: 340px;
+                    border-radius: 46px;
+                    box-shadow: none;
+                    background-color: #A2A2A2;
+                    font-size: 1.3rem;
+                    color: #ffffff;
+                }
+
+                & textarea {
+                    height: 350px;
+                }
+            }
+
+
+        }
+
+
+    }
+}
